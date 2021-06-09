@@ -1,0 +1,33 @@
+{
+	"name": "date",
+	"properties": {
+		"activities": [
+			{
+				"name": "sp_date_stg_dw",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[dbo].[sp_date_stg_dw]"
+				},
+				"linkedServiceName": {
+					"referenceName": "dataset",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"folder": {
+			"name": "others"
+		},
+		"annotations": [],
+		"lastPublishTime": "2021-06-08T21:44:09Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

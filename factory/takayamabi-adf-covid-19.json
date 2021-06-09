@@ -1,0 +1,9 @@
+{
+	"name": "takayamabi-adf-covid-19",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "06d6bc56-ef93-4cb9-a313-6467d48fd39d",
+		"tenantId": "e43f0143-095e-4d2d-8097-908fe0788fc3"
+	}
+}
